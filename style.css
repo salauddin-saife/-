@@ -2,7 +2,6 @@
   padding-top: 100px;
   text-align: center;
   margin: 0px auto;
-  
 }
 
 .heading {
@@ -12,7 +11,7 @@
   height: 400px;
   width: 800px;
   margin: 0px auto;
-  background-color: aqua;
+  background-color: aqua solid;
   border-radius: 20px;
 }
 .container {
