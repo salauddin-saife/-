@@ -1,0 +1,30 @@
+.top_num {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0px auto;
+  
+}
+
+.heading {
+  color: red;
+}
+.all {
+  height: 400px;
+  width: 800px;
+  margin: 0px auto;
+  background-color: aqua;
+  border-radius: 20px;
+}
+.container {
+  padding-top: 25px;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
