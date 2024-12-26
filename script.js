@@ -7,6 +7,11 @@ let top_num_count=-1;
 function top_number() {
   top_num_count++
   top_num.innerHTML=top_num_count;
+  if(top_num_count==1){
+    top_num.innerHTML.style.color=("red")
+  }else if(top_num_count==2){
+    top_num.innerHTML.style.color=("blue")
+  }
   if(top_num_count==top_num.dataset.top_num){
     clearInterval(stop_top_num)
   }
