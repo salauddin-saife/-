@@ -11,6 +11,12 @@ function top_number() {
     top_num.innerHTML.style.color=("red")
   }else if(top_num_count==2){
     top_num.innerHTML.style.color=("blue")
+  }else if(top_num_count==3){
+    top_num.innerHTML.style.color=("black")
+  }else if(top_num_count==4){
+    top_num.innerHTML.style.color=("brown")
+  }else if(top_num_count==5){
+    top_num.innerHTML.style.color=("salmon")
   }
   if(top_num_count==top_num.dataset.top_num){
     clearInterval(stop_top_num)
