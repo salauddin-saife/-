@@ -6,17 +6,17 @@ let top_num_count=-1;
 
 function top_number() {
   top_num_count++
-  top_num.innerHTML=top_num_count;
+  top_num.innerHTML=`${top_num_count}!`;
   if(top_num_count==1){
-    top_num.innerHTML.style.color=("red")
+    top_num.style.color="red"
   }else if(top_num_count==2){
-    top_num.innerHTML.style.color=("blue")
+    top_num.style.color="blue"
   }else if(top_num_count==3){
-    top_num.innerHTML.style.color=("black")
+    top_num.style.color="black"
   }else if(top_num_count==4){
-    top_num.innerHTML.style.color=("brown")
+    top_num.style.color="brown"
   }else if(top_num_count==5){
-    top_num.innerHTML.style.color=("salmon")
+    top_num.style.color="salmon"
   }
   if(top_num_count==top_num.dataset.top_num){
     clearInterval(stop_top_num)
